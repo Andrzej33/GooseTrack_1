@@ -41,7 +41,7 @@ export const DatePickerStyled = styled(DatePickerCalendar)`
     font-family: 'Inter', sans-serif;
   }
 
-  &. input::placeholder {
+  /* &. input::placeholder {
     font-size: 14px;
     color: ${({ theme }) => theme.placeholderColor};
     font-weight: 600;
@@ -50,7 +50,7 @@ export const DatePickerStyled = styled(DatePickerCalendar)`
     @media (min-width: 768px) {
       font-size: 16px;
     }
-  }
+  } */
 
   & .MuiButtonBase-root {
     // margin-left: 18px;
